@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="titre">
+        <centre>
+            <h1>Donnez à votre vie une couleur!</h1>
+        </centre>
+        <input type="search" name="" id="search" value="search...">
+        
+        </div>
+        <div class="articles">
+        <div class="article1">
+            <img id=img src="Brosses-pinceau-de-maquillage-professionnelles-lot-de-3-PAR262_378x378.jpg" alt="">
+            <i class="fa-solid fa-heart" onclick="myfonction(this)"></i>
+            <i class="fa-solid fa-x" onclick="remote(this)"></i>
+            <input type="text" class="number" value="0" />
+            <input type="button" class="btn-plus" value="+" />
+            <input type="button" class="btn-minus" value="-" />
+            <p class="price">$20</p>
+
+        </div>
+        <div class="article2">
+            <img id=img src="./téléchargement (1).jpg" alt="">
+
+            <i class="fa-solid fa-heart" onclick="myfonction(this)"> </i>
+            <i class="fa-solid fa-x" onclick="remote(this)"></i>
+            <input type="text" class="number" value="0" />
+            <input type="button" class="btn-plus" value="+" />
+            <input type="button" class="btn-minus" value="-" />
+            <p class="price" onclick="somme(this)">$40</p>
+
+
+        </div>
+        <div class="article3">
+            <img id=img src="./téléchargement.jpg" alt="">
+
+            <i class="fa-solid fa-heart" onclick="myfonction(this)"></i>
+            <i class="fa-solid fa-x" onclick="remote(this)"></i>
+            <input type="text" class="number" value="0" />
+            <input type="button"  class="btn-plus" value="+" />
+            <input type="button"  class="btn-minus" value="-" />
+            <p class="price">$60</p>
+        </div>
+        </div>
+
+        <footer>
+
+            <h1>total</h1>
+       
+            <textarea name="t" id="total" cols="30" rows="10"></textarea>
+        </footer>
+
+
+
+
+
+
+
+        <script src="./js.js"></script>
+</body>()
+
+</html>
